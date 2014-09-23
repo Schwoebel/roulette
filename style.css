@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+	background-color: #1b4d3e;
+}
+h1{
+	color:#fff;
+}
+ul{
+	list-style: none;
+}
+
+li:first-child{
+	margin-top: 1em;
+}
+li{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+
+li span{
+	color: #fff;
+	background-color: #000;
+	border: 12px solid #000;
+	border-radius: 15px;
+}
+
+input[type="radio"]{
+	margin-right: 10px;
+	display: none;
+}
+input[type="radio"]:checked+label span{
+	background-color: #FFFF00;
+	border-color: #FFFF00;
+	color: #000;
+}
+
+#roulette_form{
+	float: left;
+}
+
+img{
+	display: none;
+}
